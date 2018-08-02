@@ -1,0 +1,34 @@
+<div ng-controller="SearchController()">
+
+<div>
+ <span>
+	Angular Js Application  by 
+ </span>
+</div>
+
+<br>
+
+<div>
+<span>Enter the name to search</span>
+<br>
+<input type="text" name="search_input" ng-model="search"/>
+</div>
+
+
+
+<br>
+<div ng-controller="myAppController">
+<input type="number" name="phone_number" ng-model="ph_number"/>
+
+<span ng-if ="ph_number">Entered mmobile number : {{ph_number}}
+
+</span>
+
+<span ng-show="ph_number"> sum of mobile number : {{sum}}</span>
+<div ng-repeat="nam in names" >
+
+<span>{{nam.name}}
+</span>
+
+</div>
+</div>
